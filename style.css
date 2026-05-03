@@ -44,6 +44,27 @@ body{
     text-align: center;
     margin: 0%;
 }
+.reserv{
+    font-size: 20px;
+    background-color: rgb(240, 100, 100);
+    color:white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.savoir{
+    font-size: 20px; 
+    color: rgb(11, 10, 10);
+     border-radius: 20px; 
+     padding: 5px;
+     margin-left: 5px;
+}
+.fran{
+    margin: 20px;
+     color: rgb(89, 89, 247);
+}
+.tou{
+    margin: 10px;
+}
 
 h1{
     font-size: 60px;
@@ -243,6 +264,11 @@ h2{
     height: 200px;
 
 }        
+.etoile{
+    color: gold;
+     text-align: center; 
+     font-size: 30px;
+}
 .bien{
     background-color: white;
     border-radius: 15px;
