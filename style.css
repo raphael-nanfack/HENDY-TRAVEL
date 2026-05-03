@@ -1,4 +1,4 @@
-@media(max-whidth:600px){
+
 body{
     background-color: rgb(215, 214, 214);
     font-size: 14px;
@@ -365,5 +365,4 @@ input{
 }
 h4{
     color: rgb(238, 176, 78);
-}
 }
