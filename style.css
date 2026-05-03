@@ -1,5 +1,8 @@
+@media(max-whidth:600px){
 body{
     background-color: rgb(215, 214, 214);
+    font-size: 14px;
+    padding: 10px;
 }
 
 .Logo{
@@ -362,4 +365,5 @@ input{
 }
 h4{
     color: rgb(238, 176, 78);
+}
 }
