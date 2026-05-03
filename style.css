@@ -1,0 +1,339 @@
+body{
+    background-color: rgb(215, 214, 214);
+}
+
+.Logo{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+    z-index: 1000;
+    border-radius: 50px;
+}
+.navbar{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    text-align: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    gap: 30px;
+    height: 50px;
+}
+.nav-list a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 0;
+    position: relative;
+}
+
+.entete{
+    background-image: url(img/bg.jpeg);
+    background-position: left;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: 0%;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    padding: 50px;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    padding: 50px;
+}
+
+.destination{
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgb(10, 10, 10);
+    text-align: center;
+    margin: 10px;
+}
+
+.conteneurs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+}
+
+.france{
+    text-align: left;
+    background-color: rgb(234, 218, 189);
+    border-radius: 10px;
+    width: 320px;
+    height: 400px;
+    overflow: hidden;     
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+}
+.card-france {
+    display: flex;
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 5px;
+    gap: 5px;
+}
+.usa{
+    text-align: left;
+    background-color: rgb(234, 218, 189);
+    border-radius: 10px;
+    width: 580px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;     
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+}
+.card-usa{
+    display: flex;
+    height: 250px;
+    width: 290px;
+    overflow: hidden;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 5px;
+    gap: 5px;
+
+}
+.chine{
+    text-align: left;
+    background-color: rgb(234, 218, 189);
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;   
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+}
+.card-chine{
+    display: flex;
+    height: 250px;
+    width: 336px;
+    object-fit: cover;
+    margin: 5px;
+    gap: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.italie{  
+    text-align: left;
+    background-color: rgb(234, 218, 189);
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+
+}
+.card-italie{
+    display: flex;
+    height: 250px;
+    width: 340px;
+    object-fit: cover;
+    margin: 5px;
+    gap: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.zanzib{
+    text-align: left;
+    background-color: rgb(234, 218, 189);
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+}
+.card-zanzibar{
+    display: flex;
+    height: 250px;
+    width: 340px;
+    overflow: hidden;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 5px;
+    gap: 5px;
+}
+.israel{
+    text-align: left;
+    background-color: rgb(234, 218, 189);
+    border-radius: 10px;
+    width: 320px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+}
+.card-israel{
+    display: flex;
+    height: 250px;
+    width: 310px;
+    overflow: hidden;
+    border-radius: 10px;
+    object-fit: cover;
+    gap: 5px;
+    margin: 5px;
+}
+
+.offre{
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgb(10, 10, 10);
+    text-align: center;
+    margin: 10px;
+}
+.gateaux{
+    background-color: rgb(223, 219, 219);
+}
+.nouveau{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.toto{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+    text-align: left;
+    padding: 10px;
+}
+h2{
+    color: rgb(146, 226, 226);
+}
+
+
+.client{
+    background-color: rgb(197, 196, 196);
+}
+.pense{
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgb(10, 10, 10);
+    text-align: center;
+    margin: 10px;
+}
+.messages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+
+}        
+.bien{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+    text-align: left;
+    padding: 10px;
+}
+
+.appel{
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgb(10, 10, 10);
+    text-align: center;
+    margin: 10px;
+}
+.contact-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    justify-content: center;
+}
+.formulaire{
+    font-size: 20px;
+}
+input{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.bou{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    flex: 1;
+    width: 200px;
+    padding-left: 80px;
+    border-radius: 10px;
+    text-align: right;
+    background-color: #6683ea;
+}
+.nous{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fin{
+    background-color: rgb(50, 22, 154);
+    text-align: center;
+    color: white;
+}
+.prix-original{
+    text-decoration: line-through;
+    color: grey;
+}
+.prix-reduit{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: #d9534f;
+    border-radius: 10px;
+    padding: 2px 6px;
+
+}
+.pourcentage{
+    background-color: #d9534f;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 6px;
+    margin-left: 10px;
+
+}
+.bouton{
+    color: blue;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prix{
+    color: #d9534f;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.lien{
+    color: rgb(241, 228, 157);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    color: rgb(238, 176, 78);
+}
