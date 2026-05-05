@@ -16,7 +16,7 @@ nav {
   left: 0;
   width: 100%;
   height: auto;
-  background-color: #fefefe;
+  background-color: #e4d9d9;
   overflow: hidden;
   display: flex;
   padding: 10px;
@@ -76,6 +76,7 @@ nav a:hover::after {
 }
 
 .logo {
+  border-radius: 50px;
   width: 45px;
   height: 45px;
   transition: all 0.3s ease-in;
@@ -206,7 +207,7 @@ nav a:hover::after {
 .hero {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/hero.jpeg");
+    url("img/bg.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
