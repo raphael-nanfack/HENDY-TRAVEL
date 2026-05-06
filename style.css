@@ -50,7 +50,6 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* Animation underline pour les liens */
 nav a::after {
   content: "";
   position: absolute;
@@ -67,7 +66,6 @@ nav a:hover::after {
   width: 80%;
 }
 
-/* Logo dans la barre de navigation */
 .logo-container {
   width: 10%;
   display: flex;
@@ -87,7 +85,6 @@ nav a:hover::after {
   height: 60px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -203,7 +200,6 @@ nav a:hover::after {
   }
 }
 
-/* Section Hero */
 .hero {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -244,7 +240,6 @@ nav a:hover::after {
   animation-fill-mode: both;
 }
 
-/* Boutons */
 .btn {
   display: inline-block;
   padding: 12px 30px;
@@ -280,14 +275,12 @@ nav a:hover::after {
   transform: translateY(-2px);
 }
 
-/* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Sections */
 section {
   padding: 50px 0;
 }
@@ -300,7 +293,6 @@ h2 {
   text-transform: uppercase;
 }
 
-/* Section Destinations */
 .destinations {
   background-color: #f8f9fa;
 }
@@ -318,13 +310,9 @@ h2 {
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 30;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
 }
 
 .destination-card:hover {
-  transform: translateY(-10px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -342,12 +330,8 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
 }
 
-.destination-card:hover .destination-image img {
-  transform: scale(1.1);
-}
 
 .overlay {
   position: absolute;
@@ -355,9 +339,6 @@ h2 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
-  opacity: 0;
-  transition: opacity 0.3s ease;
   z-index: 10;
 }
 
@@ -390,7 +371,6 @@ h2 {
   color: #ff6b6b;
 }
 
-/* Section Offres */
 .offres {
   background-color: white;
 }
@@ -407,12 +387,8 @@ h2 {
   padding: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   position: relative;
-  transition: transform 0.3s ease;
 }
 
-.offre-card:hover {
-  transform: translateY(-5px);
-}
 
 .offre-badge {
   position: absolute;
@@ -464,7 +440,6 @@ h2 {
   color: #ff6b6b;
 }
 
-/* Section Témoignages */
 .testimonials {
   background-color: #f8f9fa;
 }
@@ -506,7 +481,6 @@ h2 {
   font-size: 0.9rem;
 }
 
-/* Section Contact */
 .contact {
   background-color: white;
 }
@@ -557,7 +531,6 @@ h2 {
   background-color: #5a6fd8;
 }
 
-/* Footer */
 footer {
   background-color: #00285b;
   color: white;
@@ -608,14 +581,3 @@ footer {
   color: #ccc;
 }
 
-/* Animations */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
